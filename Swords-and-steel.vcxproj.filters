@@ -13,30 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Units">
-      <UniqueIdentifier>{92a3aef3-09ef-4193-9023-f2bf5ac88e01}</UniqueIdentifier>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{f320c514-4091-42cb-af02-1b11e6d06326}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Units">
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{8925e637-167f-44f4-b58b-b69b9a4b3ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CombatSystem">
+      <UniqueIdentifier>{6d06cda6-5ede-43e2-8e4a-3891fb86341e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CombatSystem\Units">
       <UniqueIdentifier>{e90e3d13-d611-49a1-be3b-f31c94f43069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CombatSystem">
+      <UniqueIdentifier>{c7fcda86-71a1-4ab8-9958-ef1db5a7c25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CombatSystem\Units">
+      <UniqueIdentifier>{92a3aef3-09ef-4193-9023-f2bf5ac88e01}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ArmyController.h">
+      <Filter>Header Files\CombatSystem\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStack.h">
+      <Filter>Header Files\CombatSystem\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Header Files\CombatSystem\Units</Filter>
+    </ClInclude>
     <ClInclude Include="CombatController.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\CombatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArmyController.cpp">
+      <Filter>Source Files\CombatSystem\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitStack.cpp">
+      <Filter>Source Files\CombatSystem\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Source Files\CombatSystem\Units</Filter>
+    </ClCompile>
     <ClCompile Include="Swords-and-steel.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
     <ClCompile Include="CombatController.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CombatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

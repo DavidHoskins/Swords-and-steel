@@ -3,7 +3,11 @@
 
 #include "pch.h"
 
-int main()
-{
+#include "Game.h"
 
+void main()
+{
+	Game* gameState = new Game();
+	gameState->run();
+	delete gameState;
 }
