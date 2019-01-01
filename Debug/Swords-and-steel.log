@@ -1,2 +1,5 @@
 ﻿  CombatController.cpp
+  UnitStack.cpp
+d:\gamedevfiles\swords-and-steel\swords-and-steel\unitstack.cpp(9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
   Swords-and-steel.vcxproj -> D:\GameDevFiles\Swords-and-steel\Debug\Swords-and-steel.exe

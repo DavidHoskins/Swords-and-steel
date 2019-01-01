@@ -2,7 +2,8 @@
 #define COMBATCONTROLLER_H
 
 #include <SFML/Graphics/RenderWindow.hpp>
-#include <SFML/Graphics/RectangleShape.hpp>
+
+#include "UnitStack.h"
 
 class CombatController
 {
